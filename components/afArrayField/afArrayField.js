@@ -1,5 +1,4 @@
 /*jshint esversion: 6 */
 
 import { Template } from 'meteor/templating';
-import Utility from '../../utilities';
-import './hidden.html';
+import './afArrayField.html';

@@ -1,6 +1,7 @@
 /*jshint esversion: 6 */
 
 import { Template } from 'meteor/templating';
+import Utility from '../../utilities';
 import './select-multiple.html';
 
 Template.afSelectMultiple_materialize.onRendered(function() {

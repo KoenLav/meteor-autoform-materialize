@@ -1,3 +1,8 @@
+/*jshint esversion: 6 */
+
+import { Template } from 'meteor/templating';
+import './afFormGroup.js.html';
+
 Template.afFormGroup_materialize.helpers({
     addInputField: function() {
         var result, skipInputType, type;

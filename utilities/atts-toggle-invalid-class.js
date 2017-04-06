@@ -1,4 +1,6 @@
-Utility.attsToggleInvalidClass = function() {
+/*jshint esversion: 6 */
+
+export const attsToggleInvalidClass = function() {
   var atts    = _.clone(this.atts);
   var context = AutoForm.getFormSchema().namedContext(AutoForm.getFormId());
 
@@ -7,4 +9,4 @@ Utility.attsToggleInvalidClass = function() {
   }
 
   return atts;
-}
+};

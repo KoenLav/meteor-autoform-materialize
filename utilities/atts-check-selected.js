@@ -1,4 +1,6 @@
-Utility.attsCheckSelected = function() {
+/*jshint esversion: 6 */
+
+export const attsCheckSelected = function() {
   var atts = Utility.attsToggleInvalidClass.call(this);
   if (this.selected) {
     atts.checked = '';

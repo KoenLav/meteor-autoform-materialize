@@ -1,6 +1,7 @@
 /*jshint esversion: 6 */
 
 import { Template } from 'meteor/templating';
+import Utility from '../../utilities';
 import './boolean-select.html';
 
 Template.afBooleanSelect_materialize.helpers({

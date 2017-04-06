@@ -1,4 +1,6 @@
-Utility.optionAtts = function() {
+/*jshint esversion: 6 */
+
+export const optionAtts = function() {
   var atts, item;
   item = this;
   atts = {

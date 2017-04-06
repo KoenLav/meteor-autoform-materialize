@@ -1,6 +1,7 @@
 /*jshint esversion: 6 */
 
 import { Template } from 'meteor/templating';
+import Utility from '../../utilities';
 import './textarea.html';
 
 Template.afTextarea_materialize.helpers({

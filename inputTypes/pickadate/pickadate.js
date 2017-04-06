@@ -1,6 +1,7 @@
 /*jshint esversion: 6 */
 
 import { Template } from 'meteor/templating';
+import Utility from '../../utilities';
 import './pickadate.html';
 
 var DEFAULT_PICKADATE_FORMAT_SUBMIT = 'yyyy/mm/dd';
