@@ -1,5 +1,5 @@
 # 1.1.6 - 1.1.7
- - Fix select multiple template name typo
+ - Fix select copy paste template name errors
 
 # 0.1.1 - 1.1.5
  - Fixing package imports and dependencies
