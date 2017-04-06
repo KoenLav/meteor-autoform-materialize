@@ -3,7 +3,7 @@
 import { Template } from 'meteor/templating';
 import Utility from '../../utilities';
 import './materializeTimePicker';
-import './quickForm.html';
+import './pickatime.html';
 
 const TIME_FORMAT = 'h:mm A';
 

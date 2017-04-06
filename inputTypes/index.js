@@ -1,0 +1,29 @@
+/*jshint esversion: 6 */
+
+import './boolean-checkbox';
+import './boolean-radios';
+import './boolean-select';
+import './color';
+import './date';
+import './datetime';
+import './datetime-local';
+import './email';
+import './month';
+import './number';
+import './password';
+import './radio';
+import './select';
+import './select-checkbox';
+import './select-checkbox-inline';
+import './select-multiple';
+import './select-radio';
+import './select-radio-inline';
+import './tel';
+import './text';
+import './textarea';
+import './time';
+import './url';
+import './week';
+import './switch';
+import './pickadate';
+import './label';
