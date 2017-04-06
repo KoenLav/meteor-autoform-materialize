@@ -1,5 +1,6 @@
-# 1.1.9 - 1.1.13
+# 1.1.9 - 1.1.14
  - Fix modal - materialize-scss dependency
+ - Update Autoform and Moment to latest packages
 
 # 1.1.6 - 1.1.8
  - Fix select copy paste template name errors

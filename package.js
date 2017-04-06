@@ -1,15 +1,15 @@
 Package.describe({
   name: 'mozfet:autoform-materialize',
   summary: 'Materialize theme for Autoform',
-  version: '0.1.13',
+  version: '0.1.14',
   git: 'https://github.com/mozfet/meteor-autoform-materialize.git'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0')
   api.use(['templating', 'underscore', 'reactive-var', 'blaze', 'jquery'], 'client')
-  api.use('momentjs:moment@2.10.6')
-  api.use('aldeed:autoform@5.1.1')
+  api.use('momentjs:moment')
+  api.use('aldeed:autoform')
   api.use('fourseven:scss@3.13.0', 'client')
   api.use('poetic:materialize-scss@1.97.6_1', 'client')
   api.addFiles([
