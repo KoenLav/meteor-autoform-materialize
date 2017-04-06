@@ -1,4 +1,4 @@
-# 1.1.6
+# 1.1.6 - 1.1.7
  - Fix select multiple template name typo
 
 # 0.1.1 - 1.1.5

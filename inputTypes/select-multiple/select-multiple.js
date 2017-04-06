@@ -20,7 +20,7 @@ Template.afSelectMultiple_materialize.onRendered(function() {
 
 Template.afSelectMultiple_materialize.helpers({
   optionAtts: Utility.optionAtts,
-  atts: Utility.attsToggleInvalidClass.call(this),
+  atts: Utility.attsToggleInvalidClass,
   firstValueSelected: function () {
     if ((this.value.length===0) && (this.data.atts.firstOption)) {
       return true;
