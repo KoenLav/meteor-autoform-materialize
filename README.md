@@ -159,9 +159,18 @@ It also works for textarea:
 {{> afQuickField name='message' type='textarea' icon='person'}}
 ```
 
-# Forking and building
 
-## Building (on a Mac)
+# Troubleshooting
+
+## Extra carets on selects
+
+This happen when using materialize version `0.97.0`. A fix has been released with version `0.97.1` but there are other issues.
+
+You should use `poetic:materialize-scss` until those problems are corrected.
+
+# Maintainers
+
+## Build (on a Mac)
 This package uses https://github.com/fourseven/meteor-scss V4.5.0, a preprocessor taking scss files as input and producing css files.
 
 Since fourseven:scss 3.9.0+ there are no pre-build binaries anymore. In order to build and publish this package you are required to set up the required toolchain yourselves as per https://github.com/nodejs/node-gyp.
@@ -175,8 +184,8 @@ $ node-gyp configure
 $ node-gyp build
 ```
 
-## Publishing
-Update version number in package.js.
+## Publish
+Bump version number in package.js.
 
 Add, commit and push to git repo:
 ```
@@ -194,14 +203,6 @@ Republish on atmosphere, as per https://atmospherejs.com/i/publishing:
 ```
 $ meteor publish
 ```
-
-# Troubleshooting
-
-## Extra carets on selects
-
-This happen when using materialize version `0.97.0`. A fix has been released with version `0.97.1` but there are other issues.
-
-You should use `poetic:materialize-scss` until those problems are corrected.
 
 ## Contributors
 - Gildas Garcia (@djhi)
