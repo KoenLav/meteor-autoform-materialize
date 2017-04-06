@@ -1,8 +1,11 @@
-# 1.1.9 - 1.1.16
+# 1.0.0
+ - refactoring into npm es6 component
+
+# 0.1.9 - 0.1.16
  - Fix modal - materialize-scss dependency
  - Update Autoform and Moment to latest packages
 
-# 1.1.6 - 1.1.8
+# 0.1.6 - 0.1.8
  - Fix select copy paste template name errors
 
 # 0.1.1 - 1.1.5

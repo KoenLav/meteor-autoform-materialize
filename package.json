@@ -1,0 +1,24 @@
+{
+  "name": "meteor-autoform-materialize",
+  "version": "1.0.0",
+  "description": "Materialize theme for Autoform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mozfet/meteor-autoform-materialize.git"
+  },
+  "keywords": [
+    "Meteor",
+    "Materialize",
+    "Autoform"
+  ],
+  "author": "The Expert Box B.V.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mozfet/meteor-autoform-materialize/issues"
+  },
+  "homepage": "https://github.com/mozfet/meteor-autoform-materialize#readme"
+}
