@@ -1,7 +1,5 @@
 /*jshint esversion: 6 */
 
-import './materializeTimePicker';
-
 const TIME_FORMAT = 'h:mm A';
 
 //add autoform input

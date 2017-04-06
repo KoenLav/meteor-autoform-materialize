@@ -1,7 +1,5 @@
 /*jshint esversion: 6 */
 
-import './meridiem.html';
-
 Template.materializeTimePickerMeridiem.helpers({
   _value() {
     const instance = Template.instance();

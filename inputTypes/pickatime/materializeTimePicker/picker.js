@@ -1,13 +1,5 @@
 /*jshint esversion: 6 */
 
-import { Template } from 'meteor/templating';
-import { ReactiveVar } from 'meteor/reactive-var';
-import moment from 'moment';
-
-import './unit.js';
-import './meridiem.js';
-import './picker.html';
-
 //format helpers
 const TIME_FORMAT = 'h:mm A';
 const timeString = (hour, minute, meridiem) => {
@@ -44,7 +36,7 @@ Template.materializeTimePicker.onCreated(function () {
     const minuteValue = this.minute.get();
     const meridiemValue = this.meridiem.get();
     const timeValue = timeString(hourValue, minuteValue, meridiemValue);
-    
+
     //set the value of the reactive out var in instance data
     this.data.value.set(timeValue);
   });

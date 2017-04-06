@@ -1,11 +1,5 @@
 /*jshint esversion: 6 */
 
-import { Template } from 'meteor/templating';
-import { ReactiveVar } from 'meteor/reactive-var';
-
-import './modal.html';
-import './picker.js';
-
 Template.materializeTimePickerModal.onRendered(() => {
   const instance = Template.instance();
   const modalId = '#'+instance.data.id;
