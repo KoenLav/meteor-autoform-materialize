@@ -1,6 +1,6 @@
 /*jshint esversion: 6 */
 
-Template.afSelectMultiple_material.onRendered(function() {
+Template.afSelectMultiple_materialize.onRendered(function() {
   //init select
   $('select').material_select();
 
@@ -18,7 +18,7 @@ Template.afSelectMultiple_material.onRendered(function() {
   }
 });
 
-Template.afSelectMultiple_material.helpers({
+Template.afSelectMultiple_materialize.helpers({
   optionAtts: Utility.optionAtts,
   atts: Utility.attsToggleInvalidClass.call(this),
   firstValueSelected: function () {

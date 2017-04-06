@@ -1,3 +1,6 @@
+# 1.1.6
+ - Fix select multiple template name typo
+
 # 0.1.1 - 1.1.5
  - Fixing package imports and dependencies
 
