@@ -1,4 +1,4 @@
-# 1.1.9 - 1.1.14
+# 1.1.9 - 1.1.15
  - Fix modal - materialize-scss dependency
  - Update Autoform and Moment to latest packages
 

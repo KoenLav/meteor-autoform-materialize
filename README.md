@@ -12,7 +12,7 @@ Adds [materialize](http://materializecss.com/) templates for autoform.
   AutoForm.setDefaultTemplate('materialize');
   ```
 
-You must add materialize CSS and JavaScript yourself. Some packages can help:
+You must add materialize SCSS yourself. Some packages can help:
 
 - [materialize:materialize](https://atmospherejs.com/materialize/materialize) `meteor add materialize:materialize`
 - [poetic:materialize-scss](https://atmospherejs.com/poetic/materialize-scss) `meteor add poetic:materialize-scss`
