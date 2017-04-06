@@ -1,4 +1,4 @@
-Template.afFormGroup_material.helpers({
+Template.afFormGroup_materialize.helpers({
     addInputField: function() {
         var result, skipInputType, type;
         skipInputType = [
@@ -35,7 +35,7 @@ Template.afFormGroup_material.helpers({
     }
 });
 
-Template.afFormGroup_material.rendered = function() {
+Template.afFormGroup_materialize.rendered = function() {
     var formId;
     formId = AutoForm.getFormId();
     this.autorun((function(_this) {

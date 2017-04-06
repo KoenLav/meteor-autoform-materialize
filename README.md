@@ -2,7 +2,7 @@ Meteor Autoform Materialize templates
 =========================
 Adds [materialize](http://materializecss.com/) templates for autoform.
 
-> **Important** I have recently taken over this project from @djhi. Thank you to @djhi and other contributors for getting this package up to this point. I will try my best to make it even better.
+> **Important** I have recently taken lead of this project from @djhi. Thank you all contributors for getting this package up to this point. I will try my best to make it even better. Additional contributors are wanted!
 
 ## Setup
 
@@ -207,6 +207,7 @@ You should use `poetic:materialize-scss` until those problems are corrected.
 - Gildas Garcia (@djhi)
 - Razvan Teslaru (@rteslaru)
 - Chun Yang (@Chun-Yang)
+- Wynand Vermeulen (@mozfet)
 
 ## License
 autoform-materialize is licensed under the [MIT Licence](LICENSE), courtesy of [marmelab](http://marmelab.com).
