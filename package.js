@@ -8,8 +8,8 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0')
   api.use(['templating', 'underscore', 'reactive-var', 'blaze', 'jquery'], 'client')
-  api.use('momentjs:moment')
-  api.use('aldeed:autoform')
+  api.use('momentjs:moment@2.18.1')
+  api.use('aldeed:autoform@6.0.0')
   api.use('fourseven:scss@3.13.0', 'client')
   api.use('poetic:materialize-scss@1.97.6_1', 'client')
   api.addFiles([
