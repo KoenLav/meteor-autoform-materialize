@@ -11,6 +11,7 @@ Package.onUse(function(api) {
   api.use('momentjs:moment@2.10.6')
   api.use('aldeed:autoform@5.1.1')
   api.use('fourseven:scss@3.13.0', 'client')
+  api.use('poetic:materialize-scss@1.97.6_1', 'client')
   api.addFiles([
     // utility
     'utilities/utility.js',
