@@ -1,5 +1,8 @@
 /*jshint esversion: 6 */
 
+import { Template } from 'meteor/templating';
+import './select-multiple.html';
+
 Template.afSelectMultiple_materialize.onRendered(function() {
   //init select
   $('select').material_select();

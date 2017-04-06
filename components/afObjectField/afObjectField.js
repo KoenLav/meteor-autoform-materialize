@@ -1,6 +1,9 @@
 /*jshint esversion: 6 */
 
-Template.afObjectField_material.helpers({
+import { Template } from 'meteor/templating';
+import './afQuickField.html';
+
+Template.afObjectField_materialize.helpers({
   quickFieldsAtts: function () {
     return _.pick(this, 'name', 'id-prefix');
   }

@@ -1,5 +1,9 @@
 /*jshint esversion: 6 */
 
+import { Template } from 'meteor/templating';
+import './materializeTimePicker';
+import './quickForm.html';
+
 const TIME_FORMAT = 'h:mm A';
 
 //add autoform input

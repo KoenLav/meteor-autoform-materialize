@@ -1,16 +1,17 @@
 Package.describe({
   name: 'mozfet:autoform-materialize',
   summary: 'Materialize theme for Autoform',
-  version: '0.1.16',
+  version: '0.1.19',
   git: 'https://github.com/mozfet/meteor-autoform-materialize.git'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.0')
-  api.use(['templating', 'underscore', 'reactive-var', 'blaze'], 'client')
-  api.use('momentjs:moment@2.18.1')
-  api.use('aldeed:autoform@6.0.0')
-  api.use('fourseven:scss@3.13.0', 'client')
+  api.versionsFrom('1.4.3.2');
+  api.use(['templating@1.3.2', 'underscore@1.0.10', 'reactive-var@1.0.11', 'blaze@2.3.2'], 'client');
+  api.use('ecmascript@0.6.3');
+  api.use('momentjs:moment@2.18.1');
+  api.use('aldeed:autoform@6.0.0');
+  api.use('fourseven:scss@3.13.0', 'client');
   // api.use('poetic:materialize-scss@1.97.6_1', 'client')
   api.addFiles([
     // utility
@@ -84,16 +85,17 @@ Package.onUse(function(api) {
     'inputTypes/switch/switch.html',
     'inputTypes/switch/switch.js',
 
-    'inputTypes/pickatime/pickatime.html',
-    'inputTypes/pickatime/materializeTimePicker/meridiem.html',
-    'inputTypes/pickatime/materializeTimePicker/meridiem.js',
-    'inputTypes/pickatime/materializeTimePicker/modal.html',
-    'inputTypes/pickatime/materializeTimePicker/modal.js',
-    'inputTypes/pickatime/materializeTimePicker/picker.html',
-    'inputTypes/pickatime/materializeTimePicker/picker.js',
-    'inputTypes/pickatime/materializeTimePicker/unit.html',
-    'inputTypes/pickatime/materializeTimePicker/unit.js',
-    'inputTypes/pickatime/pickatime.js',
+    // 'inputTypes/pickatime/pickatime.html',
+    // 'inputTypes/pickatime/materializeTimePicker/style.scss',  //https://guide.meteor.com/writing-atmosphere-packages.html
+    // 'inputTypes/pickatime/materializeTimePicker/meridiem.html',
+    // 'inputTypes/pickatime/materializeTimePicker/meridiem.js',
+    // 'inputTypes/pickatime/materializeTimePicker/modal.html',
+    // 'inputTypes/pickatime/materializeTimePicker/modal.js',
+    // 'inputTypes/pickatime/materializeTimePicker/picker.html',
+    // 'inputTypes/pickatime/materializeTimePicker/picker.js',
+    // 'inputTypes/pickatime/materializeTimePicker/unit.html',
+    // 'inputTypes/pickatime/materializeTimePicker/unit.js',
+    // 'inputTypes/pickatime/pickatime.js',
 
     'inputTypes/pickadate/pickadate.html',
     'inputTypes/pickadate/pickadate.js',
@@ -109,5 +111,5 @@ Package.onUse(function(api) {
     'components/afFormGroup/afFormGroup.js',
     'components/afObjectField/afObjectField.html',
     'components/afQuickField/afQuickField.html'
-  ], "client")
-})
+  ], "client");
+});
