@@ -5,7 +5,7 @@ Template.materializeTimePickerModal.onRendered(() => {
   const modalId = '#'+instance.data.id;
 
   //init the modal
-  jQuery(modalId).modal({
+  jQuery(modalId).leanModal({
 
     //when modal is opened
     ready: (modal, trigger) => {

@@ -11,7 +11,7 @@ Package.onUse(function(api) {
   api.use('momentjs:moment@2.18.1')
   api.use('aldeed:autoform@6.0.0')
   api.use('fourseven:scss@3.13.0', 'client')
-  api.use('poetic:materialize-scss@1.97.6_1', 'client')
+  // api.use('poetic:materialize-scss@1.97.6_1', 'client')
   api.addFiles([
     // utility
     'utilities/utility.js',
@@ -83,8 +83,8 @@ Package.onUse(function(api) {
     'inputTypes/week/week.js',
     'inputTypes/switch/switch.html',
     'inputTypes/switch/switch.js',
-    'inputTypes/pickatime/pickatime.html',
 
+    'inputTypes/pickatime/pickatime.html',
     'inputTypes/pickatime/materializeTimePicker/meridiem.html',
     'inputTypes/pickatime/materializeTimePicker/meridiem.js',
     'inputTypes/pickatime/materializeTimePicker/modal.html',
@@ -93,10 +93,8 @@ Package.onUse(function(api) {
     'inputTypes/pickatime/materializeTimePicker/picker.js',
     'inputTypes/pickatime/materializeTimePicker/unit.html',
     'inputTypes/pickatime/materializeTimePicker/unit.js',
+    'inputTypes/pickatime/pickatime.js',
 
-    'inputTypes/pickatime/pickatime.js',
-    'inputTypes/pickatime/pickatime.js',
-    //???the files of materializeTimePicker as well????
     'inputTypes/pickadate/pickadate.html',
     'inputTypes/pickadate/pickadate.js',
     'inputTypes/label/label.html',
