@@ -1,5 +1,5 @@
-# 1.1.9
- - Fix modal - materialize-scss dependency 
+# 1.1.9 - 1.1.10
+ - Fix modal - materialize-scss dependency
 
 # 1.1.6 - 1.1.8
  - Fix select copy paste template name errors
