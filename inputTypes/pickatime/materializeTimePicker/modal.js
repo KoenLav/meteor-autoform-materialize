@@ -5,9 +5,7 @@ Template.materializeTimePickerModal.onRendered(() => {
   const modalId = '#'+instance.data.id;
 
   //init the modal
-  console.log('materializeTimePickerModal.onRendered: modalId', modalId);
-  console.log('materializeTimePickerModal.onRendered: query', $(modelId));
-  $(modalId).modal({
+  jQuery(modalId).modal({
 
     //when modal is opened
     ready: (modal, trigger) => {

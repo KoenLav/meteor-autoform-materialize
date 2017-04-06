@@ -1,7 +1,7 @@
 Package.describe({
   name: 'mozfet:autoform-materialize',
   summary: 'Materialize theme for Autoform',
-  version: '0.1.11',
+  version: '0.1.12',
   git: 'https://github.com/mozfet/meteor-autoform-materialize.git'
 });
 
